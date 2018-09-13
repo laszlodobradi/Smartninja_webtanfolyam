@@ -1,0 +1,45 @@
+.navigation {
+    background-color: red;
+    height: 50px;
+    width: auto;
+}
+
+#main {
+    background-color: #aa4112;
+    width: 20%;
+    /* margin: 0 auto;
+    height: 50px; */
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
+
+.lista li a{
+  display: block;
+  position: relative;
+  left: 50px;
+};
+
+.lista li a:first-child{
+  position: absolute;
+  left: 150px
+}
+
+#sidebar{
+  width: 30%;
+}
+
+
+p {
+  color: green !important;
+  background-color: khaki;
+}
+.fejlec_1{}
+#kep{width: 300px;
+align: center;}
